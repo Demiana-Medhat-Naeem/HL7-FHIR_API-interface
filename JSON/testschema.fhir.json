@@ -1,0 +1,24 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "https://example.org/fhir/StructureDefinition/Patient"
+    ]
+  },
+  
+    "name": [
+      {
+        "given" : ["Name"],
+        "family" : "Family"
+      }
+    ],
+    "gender" : "Gender",
+    "birthDate" : "1111-11-11",
+    "telecom":[
+      {
+        "system" : "phone",
+        "value" : "01234567899" 
+      }
+    ]
+  
+}
